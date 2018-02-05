@@ -136,7 +136,7 @@ $s_str = 'просто строка.';
 
 	function point($a){
 		$d = rtrim($a, ".");
-		var_dump($d.".");
+		echo_func("$d.'.'");
 	}
 
 	point($s_str);
